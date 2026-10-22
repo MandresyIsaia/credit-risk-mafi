@@ -1,0 +1,25 @@
+\begin{tabular}{lrrp{6cm}p{3cm}}
+\toprule
+\textbf{variable} & \textbf{taux manquant brut} & \textbf{taux manquant après traitement} & \textbf{traitement} & \textbf{décision} \\
+\midrule
+Loan ID & 0,0\,\% & 0,0\,\% & Utilisé pour le dédoublonnage puis gardé comme index & Exclue des facteurs de risque \\
+Customer ID & 0,0\,\% & 0,0\,\% & Supprimée & Exclue des facteurs de risque \\
+Loan Status & 0,0\,\% & 0,0\,\% & Codée 1 = Charged Off (défaut), 0 = Fully Paid & Cible \\
+Current Loan Amount & 0,0\,\% & 11,2\,\% & Sentinelle $\rightarrow$ NaN ; imputation par tirage dans la distribution de l'apprentissage (hot-deck), sans modalité « Manquant » & Conservée sous condition \\
+Term & 0,0\,\% & 0,0\,\% & Aucun & Conservée \\
+Credit Score & 19,4\,\% & 19,3\,\% & Division par 10 ; classe « Manquant » à la discrétisation & Conservée \\
+Annual Income & 19,4\,\% & 19,3\,\% & Classe « Manquant » à la discrétisation & Conservée \\
+Years in current job & 4,3\,\% & 4,3\,\% & Modalité « Non renseigné » (fusionnée à la discrétisation si $<$ 5 \%) & Conservée \\
+Home Ownership & 0,0\,\% & 0,0\,\% & Fusion des deux libellés & Conservée \\
+Purpose & 0,0\,\% & 0,0\,\% & Harmonisation ; regroupement par niveau de risque en phase de transformation & Conservée \\
+Monthly Debt & 0,0\,\% & 0,0\,\% & Aucun & Conservée \\
+Years of Credit History & 0,0\,\% & 0,0\,\% & Aucun & Conservée \\
+Months since last delinquent & 53,0\,\% & 53,1\,\% & Modalité spécifique « Aucun retard » & Conservée \\
+Number of Open Accounts & 0,0\,\% & 0,0\,\% & Aucun & Conservée \\
+Number of Credit Problems & 0,0\,\% & 0,0\,\% & Aucun & Conservée \\
+Current Credit Balance & 0,0\,\% & 0,0\,\% & Aucun à ce stade (valeurs plausibles, revues à l'étape outliers) & Conservée \\
+Maximum Open Credit & 0,0\,\% & 0,0\,\% & Division par zéro gérée au feature engineering ; plafonnement au P99 (partie 2) & Conservée \\
+Bankruptcies & 0,2\,\% & 0,2\,\% & Imputation par le mode, apprise sur l'apprentissage & Conservée \\
+Tax Liens & 0,0\,\% & 0,0\,\% & Aucun & Exclue (faible variabilité) \\
+\bottomrule
+\end{tabular}

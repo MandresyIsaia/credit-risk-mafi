@@ -1,0 +1,12 @@
+﻿variable,les_deux,seulement_3_écarts_types,seulement_IQR,jaccard,iqr_nul
+Current Loan Amount,0,0,0,,False
+Credit Score,91,0,129,0.41363636363636364,False
+Annual Income,107,0,202,0.34627831715210355,False
+Monthly Debt,115,0,134,0.46184738955823296,False
+Years of Credit History,109,0,140,0.43775100401606426,False
+Months since last delinquent,3,0,0,1.0,False
+Current Credit Balance,98,0,306,0.24257425742574257,False
+Maximum Open Credit,11,0,432,0.024830699774266364,False
+Number of Open Accounts,109,0,68,0.615819209039548,False
+Number of Credit Problems,154,0,984,0.13532513181019332,True
+Bankruptcies,50,0,836,0.056433408577878104,True

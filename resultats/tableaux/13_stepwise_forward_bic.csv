@@ -1,0 +1,10 @@
+﻿etape,mouvement,variable,critere,variables
+0,départ,,8575.837726301597,
+1,ajout,Credit Score,8420.960593295284,Credit Score
+2,ajout,Term,8377.978974580425,"Credit Score, Term"
+3,ajout,Annual Income,8310.217776107756,"Credit Score, Term, Annual Income"
+4,ajout,ESR,8297.774772252375,"Credit Score, Term, Annual Income, ESR"
+5,ajout,DTI,8285.181443003645,"Credit Score, Term, Annual Income, ESR, DTI"
+6,ajout,Home Ownership,8269.55150690977,"Credit Score, Term, Annual Income, ESR, DTI, Home Ownership"
+7,ajout,Maximum Open Credit,8259.952448484166,"Credit Score, Term, Annual Income, ESR, DTI, Home Ownership, Maximum Open Credit"
+8,ajout,CUR,8256.900323019625,"Credit Score, Term, Annual Income, ESR, DTI, Home Ownership, Maximum Open Credit, CUR"

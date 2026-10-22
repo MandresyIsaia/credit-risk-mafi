@@ -1,0 +1,17 @@
+﻿variable,n_manquants,taux_manquant,dépasse_10%,nature,justification,taux_defaut_si_manquant,taux_defaut_si_renseigné,p_value_khi2
+Current Loan Amount,1102,0.1121400223873003,True,Manquant réel,La grandeur existe pour tout emprunteur mais n'a pas été collectée.,0.0,0.26441260744985673,1.7646594360389406e-84
+Credit Score,1898,0.19314134527322682,True,Manquant réel,La grandeur existe pour tout emprunteur mais n'a pas été collectée.,0.2881981032665964,0.22196998360448986,1.1679104622193088e-09
+Annual Income,1898,0.19314134527322682,True,Manquant réel,La grandeur existe pour tout emprunteur mais n'a pas été collectée.,0.2881981032665964,0.22196998360448986,1.1679104622193088e-09
+Monthly Debt,0,0.0,False,—,—,,0.23476137173094536,
+Years of Credit History,0,0.0,False,—,—,,0.23476137173094536,
+Months since last delinquent,5217,0.5308842983616566,True,Non applicable,Aucun retard de paiement enregistré : la durée depuis le dernier retard n'existe pas.,0.23902626030285604,0.2299349240780911,0.299605863961015
+Current Credit Balance,0,0.0,False,—,—,,0.23476137173094536,
+Maximum Open Credit,0,0.0,False,—,—,,0.23476137173094536,
+Number of Open Accounts,0,0.0,False,—,—,,0.23476137173094536,
+Number of Credit Problems,0,0.0,False,—,—,,0.23476137173094536,
+Bankruptcies,17,0.0017299277500763203,False,Manquant réel,La grandeur existe pour tout emprunteur mais n'a pas été collectée.,0.35294117647058826,0.2345565749235474,0.3874441044359044
+Tax Liens,1,0.00010176045588684237,False,Manquant réel,La grandeur existe pour tout emprunteur mais n'a pas été collectée.,0.0,0.23478526358640342,1.0
+Term,0,0.0,False,—,—,,0.23476137173094536,
+Home Ownership,0,0.0,False,—,—,,0.23476137173094536,
+Purpose,0,0.0,False,—,—,,0.23476137173094536,
+Years in current job,423,0.04304467284013432,False,Ambigu,"Jeton 'n/a' : sans emploi salarié (indépendant, retraité…) ou non renseigné.",0.2978723404255319,0.23192258613356018,0.0021270534557396824

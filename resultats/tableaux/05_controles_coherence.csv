@@ -1,0 +1,17 @@
+﻿contrôle,variables,n_anomalies,part,taux_defaut_anomalies,taux_defaut_autres
+Montant du prêt = 99 999 999 (valeur sentinelle),Current Loan Amount,1136,0.11361136113611361,0.0,0.2602956109669412
+Credit Score > 850 (hors échelle),Credit Score,492,0.049204920492049206,1.0,0.19091195960870938
+Credit Score < 300 (hors échelle),Credit Score,0,0.0,,0.23072307230723071
+Revenu annuel ≤ 0,Annual Income,0,0.0,,0.23072307230723071
+Dette mensuelle < 0,Monthly Debt,0,0.0,,0.23072307230723071
+Dette mensuelle = 0,Monthly Debt,9,0.0009000900090009,0.1111111111111111,0.23083083083083084
+Dette annuelle > revenu annuel,"Monthly Debt, Annual Income",0,0.0,,0.23072307230723071
+Ancienneté de crédit ≤ 0,Years of Credit History,0,0.0,,0.23072307230723071
+Ancienneté emploi > ancienneté de crédit,"Years in current job, Years of Credit History",74,0.007400740074007401,0.24324324324324326,0.23062972292191436
+Dernier retard antérieur à l'historique de crédit,"Months since last delinquent, Years of Credit History",0,0.0,,0.23072307230723071
+Nombre de comptes ouverts = 0,Number of Open Accounts,0,0.0,,0.23072307230723071
+Crédit maximal autorisé = 0,Maximum Open Credit,66,0.006600660066006601,0.19696969696969696,0.230947347226417
+Encours > crédit maximal autorisé,"Current Credit Balance, Maximum Open Credit",13,0.0013001300130013002,0.07692307692307693,0.23092329260965352
+Faillites > incidents de crédit,"Bankruptcies, Number of Credit Problems",0,0.0,,0.23072307230723071
+Privilèges fiscaux > incidents de crédit,"Tax Liens, Number of Credit Problems",0,0.0,,0.23072307230723071
+Credit Score et Annual Income manquants séparément,"Credit Score, Annual Income",0,0.0,,0.23072307230723071

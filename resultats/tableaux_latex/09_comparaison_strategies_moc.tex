@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{stratégie} & \textbf{n conservées} & \textbf{valeurs modifiées} & \textbf{moyenne} & \textbf{écart type} & \textbf{asymétrie} & \textbf{max} \\
+\midrule
+Aucun traitement & 7\,861 & 0 & 790\,818 & 6\,329\,933 & 62,98 & 489\,343\,206 \\
+Suppression (3 écarts-types) & 7\,850 & 0 & 638\,897 & 801\,266 & 8,77 & 18\,366\,788 \\
+Suppression (IQR) & 7\,418 & 0 & 512\,859 & 330\,383 & 0,86 & 1\,542\,420 \\
+Imputation médiane (IQR) & 7\,861 & 443 & 508\,432 & 321\,448 & 0,93 & 1\,542\,420 \\
+Plafonnement (IQR) & 7\,861 & 443 & 570\,883 & 399\,231 & 0,99 & 1\,542\,497 \\
+Plafonnement (P99) & 7\,861 & 79 & 617\,357 & 561\,995 & 2,65 & 3\,617\,451 \\
+Transformation log(1+x) & 7\,861 & 7\,806 & 13 & 1 & -5,66 & 20 \\
+\bottomrule
+\end{tabular}

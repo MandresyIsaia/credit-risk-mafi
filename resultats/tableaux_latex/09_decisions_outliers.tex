@@ -1,0 +1,17 @@
+\begin{tabular}{lrrp{4.2cm}p{3.6cm}}
+\toprule
+\textbf{variable} & \textbf{n 3 écarts types} & \textbf{n IQR} & \textbf{origine} & \textbf{traitement} \\
+\midrule
+Current Loan Amount & 0 & 0 & Aucun outlier (sentinelle déjà retirée) & Aucun \\
+Credit Score & 91 & 220 & Valeurs réelles (queue basse) & Aucun \\
+Annual Income & 107 & 309 & Valeurs réelles (queue haute) & Plafonnement au P99 appris sur train \\
+Monthly Debt & 115 & 249 & Valeurs réelles (queue haute) & Plafonnement au P99 appris sur train \\
+Years of Credit History & 109 & 249 & Valeurs réelles & Aucun \\
+Months since last delinquent & 3 & 3 & Valeurs réelles & Aucun \\
+Current Credit Balance & 98 & 404 & Valeurs réelles (queue haute) & Plafonnement au P99 appris sur train \\
+Maximum Open Credit & 11 & 443 & Erreurs probables (ordre de grandeur) et queue haute réelle & Plafonnement au P99 appris sur train \\
+Number of Open Accounts & 109 & 177 & Valeurs réelles & Aucun \\
+Number of Credit Problems & 154 & 1\,138 & Valeurs réelles (comptage rare) & Regroupement à la discrétisation \\
+Bankruptcies & 50 & 886 & Valeurs réelles (comptage rare) & Regroupement à la discrétisation \\
+\bottomrule
+\end{tabular}

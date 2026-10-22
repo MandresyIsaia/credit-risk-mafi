@@ -1,0 +1,20 @@
+﻿variable,nature,taux_manquant_brut,taux_manquant_après_traitement,contrôles_en_anomalie (n),anomalies,traitement,décision
+Loan ID,Identifiant,0.0,0.0,—,Identifiant technique ; répété sur plusieurs lignes (doublons),Utilisé pour le dédoublonnage puis gardé comme index,Exclue des facteurs de risque
+Customer ID,Identifiant,0.0,0.0,—,"Identifiant technique, en bijection avec Loan ID",Supprimée,Exclue des facteurs de risque
+Loan Status,Qualitative binaire (cible),0.0,0.0,—,Aucune,"Codée 1 = Charged Off (défaut), 0 = Fully Paid",Cible
+Current Loan Amount,Quantitative continue,0.0,0.1121400223873003,Montant du prêt = 99 999 999 (valeur sentinelle) (1136),Valeur sentinelle 99 999 999 portée uniquement par des non-défauts (fuite),"Sentinelle → NaN ; imputation par tirage dans la distribution de l'apprentissage (hot-deck), sans modalité « Manquant »",Conservée sous condition
+Term,Qualitative nominale,0.0,0.0,—,Aucune,Aucun,Conservée
+Credit Score,Quantitative continue,0.1937193719371937,0.19314134527322682,Credit Score > 850 (hors échelle) (492),Valeurs ×10 (> 850) portées uniquement par des défauts ; manquants réels informatifs,Division par 10 ; classe « Manquant » à la discrétisation,Conservée
+Annual Income,Quantitative continue,0.1937193719371937,0.19314134527322682,—,"Manquants réels, simultanés avec Credit Score, informatifs",Classe « Manquant » à la discrétisation,Conservée
+Years in current job,Qualitative ordinale,0.043004300430043,0.04304467284013432,Ancienneté emploi > ancienneté de crédit (74),Jeton 'n/a' ambigu ; ancienneté d'emploi parfois > historique de crédit,Modalité « Non renseigné » (fusionnée à la discrétisation si < 5 %),Conservée
+Home Ownership,Qualitative nominale,0.0,0.0,—,Libellé 'HaveMortgage' redondant avec 'Home Mortgage',Fusion des deux libellés,Conservée
+Purpose,Qualitative nominale,0.0,0.0,—,"Libellés en double (casse, synonymes) ; modalités rares",Harmonisation ; regroupement par niveau de risque en phase de transformation,Conservée
+Monthly Debt,Quantitative continue,0.0,0.0,Dette mensuelle = 0 (9),Quelques dettes nulles (plausibles),Aucun,Conservée
+Years of Credit History,Quantitative continue,0.0,0.0,Ancienneté emploi > ancienneté de crédit (74),Aucune,Aucun,Conservée
+Months since last delinquent,Quantitative continue,0.5298529852985299,0.5308842983616566,—,NA = non applicable (aucun retard enregistré),Modalité spécifique « Aucun retard »,Conservée
+Number of Open Accounts,Quantitative discrète,0.0,0.0,—,Aucune,Aucun,Conservée
+Number of Credit Problems,Quantitative discrète,0.0,0.0,—,Aucune,Aucun,Conservée
+Current Credit Balance,Quantitative continue,0.0,0.0,Encours > crédit maximal autorisé (13),Encours parfois > plafond ; encours nuls,"Aucun à ce stade (valeurs plausibles, revues à l'étape outliers)",Conservée
+Maximum Open Credit,Quantitative continue,0.0,0.0,Crédit maximal autorisé = 0 (66); Encours > crédit maximal autorisé (13),Plafonds nuls (CUR et ACR non définis) ; valeurs extrêmes,Division par zéro gérée au feature engineering ; plafonnement au P99 (partie 2),Conservée
+Bankruptcies,Quantitative discrète,0.0017001700170017002,0.0017299277500763203,—,Manquants réels très rares,"Imputation par le mode, apprise sur l'apprentissage",Conservée
+Tax Liens,Quantitative discrète,0.00010001000100010001,0.00010176045588684237,—,Modalité 0 > 95 % ; taux de défaut non différencié,Aucun,Exclue (faible variabilité)

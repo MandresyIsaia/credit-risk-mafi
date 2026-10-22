@@ -1,0 +1,4 @@
+﻿situation,n,taux_defaut
+"plafond nul, encours nul",47,0.23404255319148937
+"plafond nul, encours > 0",8,0.125
+plafond > 0,7806,0.23481936971560338

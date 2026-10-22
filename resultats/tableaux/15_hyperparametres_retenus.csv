@@ -1,0 +1,8 @@
+﻿hyperparametre,valeurs traitées,WoE
+colsample_bytree,0.8,0.8
+learning_rate,0.05,0.1
+max_depth,1.0,2.0
+min_child_weight,10.0,1.0
+n_estimators,300.0,100.0
+subsample,0.8,0.8
+auc_validation_croisee,0.6474741809938985,0.644688726927755

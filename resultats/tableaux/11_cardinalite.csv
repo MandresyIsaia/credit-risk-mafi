@@ -1,0 +1,21 @@
+﻿variable,type,valeurs_distinctes,plus_de_10,methode
+CUR,quantitative,7771,True,discrétisation en quantiles (T de Tschuprow)
+ACR,quantitative,7771,True,discrétisation en quantiles (T de Tschuprow)
+Monthly Debt,quantitative,7623,True,discrétisation en quantiles (T de Tschuprow)
+Maximum Open Credit,quantitative,7193,True,discrétisation en quantiles (T de Tschuprow)
+Current Credit Balance,quantitative,6796,True,discrétisation en quantiles (T de Tschuprow)
+DTI,quantitative,6148,True,discrétisation en quantiles (T de Tschuprow)
+Annual Income,quantitative,5744,True,discrétisation en quantiles (T de Tschuprow)
+Current Loan Amount,quantitative,5682,True,discrétisation en quantiles (T de Tschuprow)
+IES,quantitative,5310,True,discrétisation en quantiles (T de Tschuprow)
+ESR,quantitative,1440,True,discrétisation en quantiles (T de Tschuprow)
+Years of Credit History,quantitative,408,True,discrétisation en quantiles (T de Tschuprow)
+Credit Score,quantitative,158,True,discrétisation en quantiles (T de Tschuprow)
+Months since last delinquent,quantitative,90,True,discrétisation en quantiles (T de Tschuprow)
+Number of Open Accounts,quantitative,42,True,discrétisation en quantiles (T de Tschuprow)
+Purpose,qualitative,12,True,regroupement par niveau de risque
+Years in current job,qualitative,11,True,regroupement par niveau de risque
+Number of Credit Problems,quantitative,8,False,discrétisation en quantiles (T de Tschuprow)
+Bankruptcies,quantitative,6,False,discrétisation en quantiles (T de Tschuprow)
+Home Ownership,qualitative,3,False,regroupement par niveau de risque
+Term,qualitative,2,False,regroupement par niveau de risque

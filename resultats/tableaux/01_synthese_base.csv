@@ -1,0 +1,15 @@
+﻿indicateur,valeur
+Nombre d'observations,9999
+Nombre de colonnes,19
+Identifiants,2
+Variable cible,1
+Variables explicatives,16
+dont quantitatives continues,8
+dont quantitatives discrètes,4
+dont qualitatives,4
+Nombre de défauts,2307
+Taux de défaut global,0.2307
+Cellules manquantes (explicatives),9620
+Part de cellules manquantes,0.0601
+Lignes entièrement dupliquées,99
+Identifiants de prêt distincts,9827

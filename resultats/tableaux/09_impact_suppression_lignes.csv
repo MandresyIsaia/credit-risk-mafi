@@ -1,0 +1,4 @@
+﻿méthode,lignes_conservées,part_conservée,défauts_conservés,taux_defaut
+Aucune suppression,7861,1.0,1845,0.23470296399949117
+Suppression (3 écarts-types),7176,0.9128609591655006,1690,0.23550724637681159
+Suppression (IQR),5457,0.6941864902684137,1307,0.23950888766721642

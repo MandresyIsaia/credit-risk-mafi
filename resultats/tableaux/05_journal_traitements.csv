@@ -1,0 +1,5 @@
+﻿étape,lignes_avant,lignes_après,cellules_modifiées
+Montant sentinelle 99 999 999 → NaN,9999,9999,1136.0
+Credit Score > 850 divisé par 10,9999,9999,492.0
+Harmonisation des libellés,9999,9999,701.0
+"Doublons exacts supprimés, ligne la plus complète gardée par Loan ID",9999,9827,

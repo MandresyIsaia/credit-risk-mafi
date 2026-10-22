@@ -1,0 +1,17 @@
+﻿variable,k_echantillon_1,k_echantillon_2,k_echantillon_3,k_echantillon_4,k_apprentissage,k_identique_partout
+Current Loan Amount,4,4,9,4,4,False
+Credit Score,7,6,9,6,6,False
+Annual Income,2,2,2,2,2,True
+Monthly Debt,7,9,10,7,6,False
+Years of Credit History,8,7,7,6,3,False
+Months since last delinquent,10,7,10,10,10,False
+Current Credit Balance,5,8,8,6,5,False
+Maximum Open Credit,5,5,8,4,5,False
+Number of Open Accounts,9,10,9,3,10,False
+Number of Credit Problems,2,2,2,2,2,True
+Bankruptcies,2,2,2,2,2,True
+DTI,5,2,2,4,4,False
+CUR,9,2,5,4,2,False
+ACR,9,2,5,4,2,False
+ESR,4,10,5,5,7,False
+IES,3,2,4,2,3,False

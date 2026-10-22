@@ -1,0 +1,6 @@
+﻿variable,formule,signification,effet_attendu
+DTI,12 × Monthly Debt / Annual Income,Part du revenu annuel absorbée par le service de la dette : mesure la capacité de remboursement.,"Plus le DTI est élevé, moins il reste de revenu pour absorber un choc : PD croissante."
+CUR,Current Credit Balance / Maximum Open Credit,Taux d'utilisation des lignes de crédit renouvelables : dépendance au crédit.,Une utilisation proche du plafond signale une tension de trésorerie : PD croissante.
+ACR,(Maximum Open Credit − Current Credit Balance) / Maximum Open Credit,Part du plafond encore disponible : réserve de liquidité mobilisable (ACR = 1 − CUR).,Une réserve importante permet de faire face à un imprévu : PD décroissante.
+ESR,Years in current job / Years of Credit History,Ancienneté dans l'emploi rapportée à l'ancienneté de crédit : stabilité professionnelle relative.,Un emploi stable sur une grande partie de la vie de crédit rassure : PD décroissante.
+IES,Annual Income × Years in current job,Revenu pondéré par sa durabilité : niveau et stabilité des ressources.,Un revenu élevé et ancien est plus sûr : PD décroissante.

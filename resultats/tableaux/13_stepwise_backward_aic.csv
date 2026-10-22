@@ -1,0 +1,5 @@
+﻿etape,mouvement,variable,critere,variables
+0,départ,,8187.0320951624,"Credit Score, Term, DTI, Annual Income, Maximum Open Credit, CUR, Current Loan Amount, ESR, Home Ownership, Monthly Debt, Years of Credit History, Current Credit Balance, Years in current job, Purpose"
+1,retrait,Purpose,8185.061358794343,"Credit Score, Term, DTI, Annual Income, Maximum Open Credit, CUR, Current Loan Amount, ESR, Home Ownership, Monthly Debt, Years of Credit History, Current Credit Balance, Years in current job"
+2,retrait,Current Credit Balance,8183.788743389578,"Credit Score, Term, DTI, Annual Income, Maximum Open Credit, CUR, Current Loan Amount, ESR, Home Ownership, Monthly Debt, Years of Credit History, Years in current job"
+3,retrait,Years of Credit History,8182.971312556687,"Credit Score, Term, DTI, Annual Income, Maximum Open Credit, CUR, Current Loan Amount, ESR, Home Ownership, Monthly Debt, Years in current job"

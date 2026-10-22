@@ -1,0 +1,20 @@
+﻿variable,rôle,nature,type,n_distinct,n_manquants,exemples (plus fréquents)
+Loan ID,Identifiant,Identifiant,object,9827,0,fa7d4423-3e08-49ad-815a-0e4f079ffeea | b4715c52-bc90-4439-a05c-51ad98e2e649 | 3ea33bd6-0431-4c49-9b2e-7e7d9bc25711
+Customer ID,Identifiant,Identifiant,object,9827,0,24228ba1-2004-499d-8782-0a4e2f474c76 | 70d52005-13e3-44e3-8942-f9ba6d920912 | 9dbdf5a9-9d16-4ade-8c3f-2c0b86636f60
+Loan Status,Cible,Qualitative binaire (cible),object,2,0,Fully Paid | Charged Off
+Current Loan Amount,Explicative,Quantitative continue,float64,6762,0,99999999.0 | 134288.0 | 112706.0
+Term,Explicative,Qualitative nominale,object,2,0,Short Term | Long Term
+Credit Score,Explicative,Quantitative continue,float64,281,1937,747.0 | 745.0 | 740.0
+Annual Income,Explicative,Quantitative continue,float64,7129,1937,1130196.0 | 1138518.0 | 1243284.0
+Years in current job,Explicative,Qualitative ordinale,object,11,430,10+ years | 2 years | < 1 year
+Home Ownership,Explicative,Qualitative nominale,object,4,0,Home Mortgage | Rent | Own Home
+Purpose,Explicative,Qualitative nominale,object,15,0,Debt Consolidation | other | Home Improvements
+Monthly Debt,Explicative,Quantitative continue,float64,9579,0,0.0 | 12656.47 | 13279.86
+Years of Credit History,Explicative,Quantitative continue,float64,423,0,15.0 | 16.0 | 14.0
+Months since last delinquent,Explicative,Quantitative continue,float64,91,5298,7.0 | 14.0 | 18.0
+Number of Open Accounts,Explicative,Quantitative discrète,float64,44,0,9.0 | 10.0 | 8.0
+Number of Credit Problems,Explicative,Quantitative discrète,float64,8,0,0.0 | 1.0 | 2.0
+Current Credit Balance,Explicative,Quantitative continue,float64,8346,0,0.0 | 148846.0 | 181678.0
+Maximum Open Credit,Explicative,Quantitative continue,float64,8905,0,0.0 | 219076.0 | 302676.0
+Bankruptcies,Explicative,Quantitative discrète,float64,6,17,0.0 | 1.0 | 2.0
+Tax Liens,Explicative,Quantitative discrète,float64,7,1,0.0 | 1.0 | 2.0

@@ -1,0 +1,12 @@
+﻿variable,n_3_écarts_types,n_IQR,origine,traitement,justification
+Current Loan Amount,0,0,Aucun outlier (sentinelle déjà retirée),Aucun,Distribution bornée et peu asymétrique.
+Credit Score,91,220,Valeurs réelles (queue basse),Aucun,Scores dans l'échelle 300–850 ; les scores bas sont les plus risqués : information à conserver.
+Annual Income,107,309,Valeurs réelles (queue haute),Plafonnement au P99 appris sur train,Revenus élevés plausibles ; plafond pour l'usage continu du montant (ratios calculés avant).
+Monthly Debt,115,249,Valeurs réelles (queue haute),Plafonnement au P99 appris sur train,Cohérentes avec le revenu (dette annuelle < revenu) ; plafond pour l'usage continu du montant.
+Years of Credit History,109,249,Valeurs réelles,Aucun,Historiques d'une cinquantaine d'années au plus : plausibles.
+Months since last delinquent,3,3,Valeurs réelles,Aucun,"Très peu d'outliers, cohérents avec l'historique de crédit."
+Current Credit Balance,98,404,Valeurs réelles (queue haute),Plafonnement au P99 appris sur train,Asymétrie très forte ; plafond pour l'usage continu du montant.
+Maximum Open Credit,11,443,Erreurs probables (ordre de grandeur) et queue haute réelle,Plafonnement au P99 appris sur train,Plafonds sans rapport avec le revenu ; le plafonnement les neutralise sans perdre la ligne.
+Number of Open Accounts,109,177,Valeurs réelles,Aucun,Comptage plausible ; traité par la discrétisation.
+Number of Credit Problems,154,1138,Valeurs réelles (comptage rare),Regroupement à la discrétisation,"IQR nul : la méthode IQR signale toute valeur non nulle, ce qui est inadapté."
+Bankruptcies,50,886,Valeurs réelles (comptage rare),Regroupement à la discrétisation,"IQR nul : la méthode IQR signale toute valeur non nulle, ce qui est inadapté."
